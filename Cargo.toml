@@ -1,0 +1,11 @@
+[package]
+name = "my_os"
+version = "0.1.0"
+authors = ["hanna.swierczynska <hanna.swierczynska@idium.no>"]
+
+[profile.dev]
+panic = "abort"
+
+[profile.release]
+panic = "abort"
+
